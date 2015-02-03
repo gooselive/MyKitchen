@@ -10,7 +10,7 @@
 .ptmr8c-x-x-109{}
 .ptmri8t-x-x-120{font-size:109%;font-style: italic;}
 .ptmbi8t-x-x-120{font-size:109%; font-weight: bold;   font-style: italic;}
-p.noindent { text-indent: 0em }
+p.noindent { text-indent: 0em}
 td p.noindent { text-indent: 0em; margin-top:0em; }
 p.nopar { text-indent: 0em; }
 p.indent{ text-indent: 1.5em }
@@ -38,7 +38,7 @@ td.displaylines {text-align:center; white-space:nowrap;}
 .rightline {text-align:right;}
 div.verbatim {font-family: monospace; white-space: nowrap; text-align:left; clear:both; }
 .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
-div.fbox {display:table}
+div.fbox {float: left; padding-right: 20px; padding-bottom: 20px}
 div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
 div.minipage{width:100%;}
 div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
@@ -123,3 +123,20 @@ td#TBL-2-1-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
 td#TBL-2-20-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
 /* end css.sty */
 
+.subsubsectionHead {
+    clear: both;
+    padding-top: 20px;
+}
+
+div {
+    
+}
+
+div.crosslinks {
+    clear: both;
+    text-align: center
+}
+
+h5 {
+    
+}
