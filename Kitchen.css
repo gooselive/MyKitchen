@@ -38,7 +38,7 @@ td.displaylines {text-align:center; white-space:nowrap;}
 .rightline {text-align:right;}
 div.verbatim {font-family: monospace; white-space: nowrap; text-align:left; clear:both; }
 .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
-div.fbox {float: left; padding-right: 20px; padding-bottom: 20px}
+div.fbox {float: left; padding-right: 20px; padding-bottom: 5px}
 div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
 div.minipage{width:100%;}
 div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
@@ -54,7 +54,10 @@ div.flushleft {text-align: left;}
 .framebox-r {text-align:right;}
 span.thank-mark{ vertical-align: super }
 span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
-div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+div.tabular, div.center div.tabular {
+    text-align: center; 
+    margin-top:0.5em; 
+    margin-bottom:0.5em; }
 table.tabular td p{margin-top:0em;}
 table.tabular {margin-left: auto; margin-right: auto;}
 td p:first-child{ margin-top:0em; }
@@ -139,4 +142,46 @@ div.crosslinks {
 
 h5 {
     
+}
+
+.tableofcontents {
+    text-align: justify;
+    max-width: 400px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(163, 163, 204, 0.24);
+    padding-left: 5em;
+    padding-bottom: 2em;
+}
+
+.likechapterHead {
+    text-align: center
+}
+
+#intro {
+    padding: 3em;
+    background: rgba(163, 163, 204, 0.24)
+}
+
+.chapterHead {
+    text-align: center
+}
+
+.appendixHead {
+    text-align: center
+}
+
+.content {
+    background: rgba(163, 163, 204, 0.24);
+    padding-bottom: 5em;
+}
+
+ul.chapterToc {
+    list-style: none;
+}
+
+li.subsubsectionToc {
+    padding-top: 0;
+    padding-bottom: 0;
 }
